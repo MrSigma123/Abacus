@@ -14,3 +14,11 @@ void print_options(void) {
   printf("                      2. About the program\n");
   printf("                      3. Exit the program\n");
 }
+
+void abacus_mode(void) {
+
+}
+
+void about() {
+
+}
