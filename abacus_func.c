@@ -19,6 +19,16 @@ void abacus_mode(void) {
 
 }
 
-void about() {
-
+void about(void) {
+  printf("v0.0.1");
+  printf("Program based on traditional ABACUS design.\n");
+  printf("Adding functionality of choosing different numeral\n");
+  printf("system base allows for better understanding of positional\n");
+  printf("number systems.\n");
+  printf("\nThe idea of creating this program came to my mind after coming across\n");
+  printf("very simple abacus with 10 rows of 10 units, so it's the traditional\n");
+  printf("model to teach kids at school how to perform basic arithmetic.\n");
+  printf("The program main purpose is to get familiar with various numeral\n");
+  printf("systems and to get better fluency while performing mathematical operations\n");
+  printf("according to particular system\n");
 }
