@@ -7,8 +7,12 @@
     change the value
 */
 #include "abacus_func.h"
-int main(void) {
+void menu(void); // define menu function im main.c or in separate file
+void menu (void) {
   print_options();
-  // menu();
+}
+
+int main(void) {
+  menu();
   return 0;
 }
